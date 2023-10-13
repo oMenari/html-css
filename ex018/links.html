@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+
+        }
+        a:active{
+            color: black;
+        }
+        li::before{
+            content: '☞';
+        }
+        li::after{
+            content: '✞';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <a href="https://youtu.be/CATR1fY803w?si=zNHPcZXh7zLtHRc8" target="_blank"><li>Meu video</li>
+        </a>
+        <a href="https://youtu.be/CATR1fY803w?si=zNHPcZXh7zLtHRc8" target="_blank"><li>Meu viedeo 2</li>
+        </a>
+        <a href="https://youtu.be/CATR1fY803w?si=zNHPcZXh7zLtHRc8" target="_blank"><li>Meu video 3</li>
+        </a>
+    </ul>
+</body>
+</html>
